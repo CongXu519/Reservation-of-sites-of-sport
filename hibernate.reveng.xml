@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="admins" schema="fcshopping"
+		class="com.sanqing.po.Admin">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="commodity" schema="fcshopping"
+		class="com.sanqing.po.Commodity">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="orderDate" schema="fcshopping"
+		class="com.sanqing.po.OrderDate">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="commodityClass" schema="fcshopping"
+		class="com.sanqing.po.CommodityClass">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="orderForm" schema="fcshopping"
+		class="com.sanqing.po.OrderForm">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="orderList" schema="fcshopping"
+		class="com.sanqing.po.OrderList">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="users" schema="fcshopping"
+	class="com.sanqing.po.User">
+	<primary-key>
+		<generator class="native"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>

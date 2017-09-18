@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ProjetPlatine"
+  id="myeclipse.1257904241741"
+  context-root="/ProjetPlatine"
+  j2ee-spec="5.0"
+  archive="ProjetPlatine.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+
